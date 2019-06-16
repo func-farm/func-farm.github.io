@@ -1,4 +1,4 @@
-Responsive Project Landing Page
+Func.Farm Project Landing Page
 ==========
 
 :question: A responsive project landing page built upon [Bootstrap](http://getbootstrap.com/) which I have handcrafted for one of my projects [Markdownify](https://github.com/amitmerchant1990/electron-markdownify).
