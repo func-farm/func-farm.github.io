@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="A minimal Markdown editor">
-    <meta name="author" content="Amit Merchant">
+    <meta name="description" content="Browser extension to create serverless functions from snippets">
+    <meta name="author" content="Dror Gensler">
     <link rel="icon" href="favicon.ico">
 
-    <meta property="og:title" content="Markdownify" />
+    <meta property="og:title" content="Func.Farm" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://markdownify.js.org/" />
-    <meta property="og:description" content="A minimal Markdown editor" />
+    <meta property="og:url" content="https://func-farm.github.io/" />
+    <meta property="og:description" content="Browser extension to create serverless functions from snippets" />
     <meta property="og:image" content="https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg"/>
     <!-- for Twitter -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Markdownify" />
-    <meta name="twitter:creator" content="@amit_merchant">
-    <meta name="twitter:description" content="A minimal Markdown editor" />
+    <meta name="twitter:title" content="Func.Farm" />
+    <meta name="twitter:creator" content="@nihil75">
+    <meta name="twitter:description" content="Browser extension to create serverless functions from snippets" />
     <meta name="twitter:image" content="https://raw.githubusercontent.com/amitmerchant1990/test/master/markdownify-mockup1920-1.jpg">
     <meta name="theme-color" content="#0b1320">
-    <title>Markdownify - A minimal Markdown editor</title>
+    <title>Func.Farm - Browser extention to create serverless functions from snippets</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -32,16 +32,16 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container text-center">
-        <h1>Markdownify</h1>
+        <h1>Func.Farm</h1>
         <div>
         <p><img src="https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/img/markdownify.png" class="img-responsive logo-image text-center"></p>
           <p>
-            <i class="tagline">A minimal Markdown editor</i>
+            <i class="tagline">Browser extension to create serverless functions from snippets</i>
           </p>
         </div>
         <div>
-          <a href="https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0" class="btn btn-success btn-lg">Download</a>
-          <a href="https://github.com/amitmerchant1990/electron-markdownify/" class="btn btn-danger btn-lg">GitHub</a>
+          <a href="https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0" class="btn btn-success btn-lg">Add to Chrome</a>
+          <a href="https://github.com/func-farm/" class="btn btn-danger btn-lg">GitHub</a>
         </div>
       </div>
       <div class="text-center">
@@ -55,30 +55,30 @@
       </div>
       <div class="row">
         <div class="col-md-4">
-          <h3>📔 LivePreview</h3>
-          <p> <b>Make changes, See changes</b>. Instantly see what your Markdown documents look like in HTML as you create them. </p>
+          <h3>💥 Instant Function</h3>
+          <p> <b>Select code, Create Function</b>. No need to copy-paste.</p>
         </div>
         <div class="col-md-4">
-          <h3>📜 Sync Scrolling</h3>
-          <p>While you type, <b>LivePreview</b> will automatically scroll to the current location you're editing. </p>
+          <h3>👟 Run it!</h3>
+          <p>Execute your code and <b>get results</b> right there and then.</p>
+        </div>
+        <div class="col-md-4">
+          <h3>☁️ Multi-Cloud</h3>
+          <p>Try the same code on multiple providers <b>Instantly</b>.</p>
        </div>
-        <div class="col-md-4">
-          <h3>🔧 GFM</h3>
-          <p>The good old <b>GitHub Flavored-style</b> Markdown. So, you don't feel out of the place.</p>
-        </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <h3>🌈 Syntax highlighting</h3>
-          <p> Syntax highlighting in fenced code blocks with language identifiers and Markup languages  </p>
+          <h3>💻 Same Window</h3>
+	  <p> Stay on the <b>same site</b> instead of navigating away or switching to shell.  </p>
         </div>
         <div class="col-md-4">
-          <h3>⬛ Dark/Light mode</h3>
-          <p>Change the color scheme of the editor based on your preferences. i.e to choose between Dark mode/Light mode </p>
+          <h3>📝 Multiple Languages</h3>
+          <p>Switch between programming languages or versions with ease. </p>
        </div>
         <div class="col-md-4">
-          <h3>😜 Emoji support</h3>
-          <p>Supports emojis in the preview mode for when you need to express yourself via one</p>
+          <h3>📁 Add Files</h3>
+          <p>Extend and split your code to supporting files that are bundled along with your main function.</p>
         </div>
       </div>
     </div>
@@ -90,19 +90,18 @@
         <div>
           <h4>Other features including...</h4>
           <ul class="center" type="square">
-            <li>Toolbar for basic Markdown formatting</li>
-            <li>Save the Markdown preview as PDF</li>
-            <li>App will keep alive in tray for quick usage</li>
-            <li>Full screen mode</li>
-            <li>Supports multiple cursors</li>
-            <li>Save the Markdown preview as PDF</li>
-            <ul>
-              <li>Write distraction free.</li>
-            </ul>
-            <li>Cross platform</li>
-            <ul>
-              <li>Windows, Mac and Linux ready.</li>
-            </ul>
+            <li>Built-in editor with syntax highlighting</li>
+            <li>Encrypted credential storage</li>
+            <li>Easily extendable to other providers</li>
+	  </ul>
+        </div>
+        <div>
+          <h5>Coming soon:</h5>
+          <ul class="center" type="square">
+	    <li>Share with others</li>
+	    <li>Publish to global library</li>
+	    <li>Resolve dependencies (hopefully..)</li>
+	    <li>More providers</li>
           </ul>
         </div>
 
@@ -116,25 +115,33 @@
             <h2 class="key_features">Develop</h2>
           </div>
           <div>
-              <p>To clone and run this application, you'll need <a href="https://git-scm.com/">Git</a> and <a href="https://nodejs.org/en/download/">Node.js</a> (which comes with <a href="http://npmjs.com/">npm</a>) installed on your computer. From your command line:</p>
+              <p>To build a local copy, you'll need <a href="https://nodejs.org/en/download/">Node.js</a> and <a href="http://browserify.org">Browserify</a> (installed with <a href="http://npmjs.com/">npm</a>) installed on your computer. From your command line:</p>
           </div>
           <div>
             <pre>
               <code class="bash">
-# Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+# Clone the repository
+$ git clone https://github.com/func-farm
 
 # Go into the repository
-$ cd electron-markdownify
+$ cd func-farm
 
 # Install dependencies
 $ npm install
 
-# Run the app
-$ npm start
+# Install Browserify (if you haven't already)
+$ npm install -g browserify
+
+# Build / pack js
+$ browserify window.js -o window_bundle.js
+
+# or to monitor files and recompile on change
+$ watchify window.js -o window_bundle.js
               </code>
             </pre>
           </div>
+	  <div>
+	    <p>Then open "chrome://extensions" window and click "<b>Load unpacked</b>", selecting the folder.</p>
     </div>
 
     <hr>
@@ -143,7 +150,7 @@ $ npm start
       <div class="row text-center credits">
         <div>
           <h2 class="key_features">Credits</h2>
-          <p>Markdowinfy is built using <a href="http://electron.atom.io/">Electron</a>, <a href="https://nodejs.org/">Node.js</a> and some <a href="https://github.com/amitmerchant1990/electron-markdownify#credits">more</a>.</p>
+          <p>Created by  <a href="https://github.com/dror-g">Dror Gensler</a>.</p>
         </div>
       </div>
     </div>
@@ -151,7 +158,7 @@ $ npm start
     <hr>
 
     <footer>
-      <p class="text-center">Created by <a href="https://www.amitmerchant.com/">Amit Merchant</a>.</p>
+	    <p class="text-center">This page <a href="https://github.com/amitmerchant1990/responsive-project-landing-page">theme and code</a> created by <a href="https://www.amitmerchant.com/">Amit Merchant</a>.</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
